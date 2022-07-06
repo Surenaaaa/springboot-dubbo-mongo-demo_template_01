@@ -1,0 +1,16 @@
+server:
+  port: 8010
+dubbo:
+  application:
+    name: springboot-dubbo-mongo-demo_template-provider_01
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20883
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: 127.0.0.1
+      database: springboot_demo
